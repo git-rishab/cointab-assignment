@@ -1,5 +1,5 @@
 import { notifications } from '@mantine/notifications';
-const url = "http://localhost:5000";
+const url = "https://energetic-bass-stole.cyclic.app";
 
 function notification(title, message, textColor, bgColor) {
     notifications.show({
