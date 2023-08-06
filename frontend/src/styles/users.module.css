@@ -1,0 +1,46 @@
+.body{
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+.table{
+    width: 90%;
+    margin: 2rem auto;
+    min-height: 600px;
+}
+
+.heading{
+    text-align: center;
+    margin: 2rem 0;
+    text-decoration: underline;
+}
+
+.back{
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    color: #4C6EF5;
+}
+.back:hover{
+    cursor: pointer;
+}
+.loader{
+    text-align: center;
+}
+
+.pages{
+    margin-bottom: 40px;
+}
+
+.filter{
+    width: fit-content;
+    display: flex;
+    align-items: end;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(211, 208, 208);
+}
+.search{
+    width: 30rem;
+}
