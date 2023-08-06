@@ -22,7 +22,7 @@ To run the project on your local machine, follow the steps below:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/git-rishab/car-rental-application.git
+   git clone https://github.com/git-rishab/cointab-assignment.git
   
 2. Install Dependencies:
 
