@@ -13,7 +13,7 @@
 ## Introduction
 This project is a company assignment given by the company called Cointab. The objective of the project is to create a web application that manages user data. It is built using a tech stack that includes React with Mantine UI for the frontend and Express, MySQL, and Node.js for the backend.
 
-## Deplolyed App
+## Deployed App
 - Visit: https://cointab-userdetails.netlify.app
 
 ## Video Walkthrough of the project
@@ -53,7 +53,7 @@ The project exposes the following API endpoints:
 
 1. GET `/get`: To get user data based on the page number.
 2. GET `/get/filter`: To get user data based on certain filters.
-3. POST `/add`: To add random userdata to the table.
+3. POST `/add`: To add random user data to the table.
 4. DELETE `/delete`: To delete all rows from the user table.
 
 ## Schema Design
