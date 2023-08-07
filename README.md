@@ -17,7 +17,7 @@ This project is a company assignment given by the company called Cointab. The ob
 - Visit: https://cointab-userdetails.netlify.app
 
 ## Video Walkthrough of the project
-- Video:
+- Video: https://drive.google.com/file/d/1b1ptA11m3LZpv_9_WS7oI26PxI3Ns9as/view?usp=sharing
   
 ## Features
 The project includes the following features:
@@ -71,4 +71,7 @@ The database schema design includes a table named "users" with the following col
 - Frontend: React with Mantine UI
 - Backend: Express, MySQL, Node.js
 
-For more details on using the application and its functionalities, refer to the code and comments within the project files.
+---
+
+![Table](https://github.com/git-rishab/cointab-assignment/assets/114337213/f7ec5009-46ac-4a65-a582-e9e34e3b0726)
+![Landing page](https://github.com/git-rishab/cointab-assignment/assets/114337213/3f147734-3dd3-4c63-a315-f9d22e276c15)
