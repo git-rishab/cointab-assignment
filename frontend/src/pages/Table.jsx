@@ -108,7 +108,7 @@ export default function UserTable() {
                                 <Loader />
                             </td>
                         </tr>
-                    ) : !data.length ? (
+                    ) : !data?.length ? (
                         <tr>
                             <td colSpan="8" className={styles.loader}>
                                 <h4>No Data Available...</h4>
@@ -126,7 +126,7 @@ export default function UserTable() {
                                 <td>{element.phone}</td>
                                 <td>{element.age}</td>
                                 <td>{element.gender}</td>
-                                <td>{element.address}</td>
+                                <td className={styles.address}>{element.address}</td>
                             </tr>
                         ))
                     }
@@ -134,7 +134,7 @@ export default function UserTable() {
             </Table>
             <Group position="center" spacing="xs" className={styles.pages}>
                 {
-                    data.length ? (
+                    data?.length ? (
                         <>
                             <Pagination value={currentPage} onChange={setCurrentPage} total={pages} />
                         </>

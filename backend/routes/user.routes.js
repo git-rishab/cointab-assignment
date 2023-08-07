@@ -67,10 +67,9 @@ userRoute.post("/add", async (req, res) => {
 // to delete all the rows from the user table
 userRoute.delete("/delete", async(req,res)=>{
     try {
-        // await user.destroy({
-        //     truncate: true,
-        // });
-        await user.drop()
+        await user.destroy({
+            truncate: true,
+        });
         res.status(200).send({ "ok": true, "message": "Data Deleted successfully" });
     } catch (error) {
         res.status(400).send({ "ok": false, "message": error.message });
