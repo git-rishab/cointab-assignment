@@ -2,19 +2,28 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Tech Stack](#tech-stack)
+- [Deployed](#deployed-app)
+- [Video Walkthrough](#video-walkthrough-of-the-project)
+- [Features](#features)
 - [Getting Started](#getting-started)
 - [API Endpoints](#api-endpoints)
 - [Schema Design](#schema-design)
-- [Features](#Features)
+- [Tech Stack](#tech-stack)
 
 ## Introduction
 This project is a company assignment given by the company called Cointab. The objective of the project is to create a web application that manages user data. It is built using a tech stack that includes React with Mantine UI for the frontend and Express, MySQL, and Node.js for the backend.
+
+## Deplolyed App
 - Visit: https://cointab-userdetails.netlify.app
 
-## Tech Stack
-- Frontend: React with Mantine UI
-- Backend: Express, MySQL, Node.js
+## Video Walkthrough of the project
+- Video:
+  
+## Features
+The project includes the following features:
+- Debouncing: For handling user input with reduced API calls.
+- Pagination: To navigate through the user data in a paginated manner.
+- Multiple Filters: To filter user data based on various criteria.
 
 ## Getting Started
 To run the project on your local machine, follow the steps below:
@@ -58,10 +67,8 @@ The database schema design includes a table named "users" with the following col
 - `username`: String
 - `address`: String
 
-## Features
-The project includes the following features:
-- Debouncing: For handling user input with reduced API calls.
-- Pagination: To navigate through the user data in a paginated manner.
-- Multiple Filters: To filter user data based on various criteria.
+## Tech Stack
+- Frontend: React with Mantine UI
+- Backend: Express, MySQL, Node.js
 
 For more details on using the application and its functionalities, refer to the code and comments within the project files.
