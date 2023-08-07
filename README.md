@@ -17,7 +17,7 @@ This project is a company assignment given by the company called Cointab. The ob
 - Visit: https://cointab-userdetails.netlify.app
 
 ## Video Walkthrough of the project
-- Video: https://drive.google.com/file/d/1b1ptA11m3LZpv_9_WS7oI26PxI3Ns9as/view?usp=sharing
+- Video: https://drive.google.com/file/d/19uEfRH-wC2eSP7jYF_a8YnHilKYq4ZlC/view
   
 ## Features
 The project includes the following features:
