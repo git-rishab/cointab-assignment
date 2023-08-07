@@ -51,7 +51,11 @@ userRoute.post("/add", async (req, res) => {
             age: result.dob.age,
             phone: result.phone,
             username: result.login.username,
-            address: `${result.location.street?.name} ${result.location.street?.number}, ${result.location.city}, ${result.location.state}, ${result.location.country}, ${result.location.postcode}`
+            address: `${result.location.street?.name} ${result.location.street?.number}, ${result.location.city}, ${result.location.state}, ${result.location.country}, ${result.location.postcode}`,
+            city:result.location.city,
+            state:result.location.state,
+            country:result.location.country,
+            image:result.picture.medium
         }));
         await user.bulkCreate(usersData);
         res.status(201).send({ "ok": true, "message": "Data Added successfully" });
@@ -63,9 +67,10 @@ userRoute.post("/add", async (req, res) => {
 // to delete all the rows from the user table
 userRoute.delete("/delete", async(req,res)=>{
     try {
-        await user.destroy({
-            truncate: true,
-        });
+        // await user.destroy({
+        //     truncate: true,
+        // });
+        await user.drop()
         res.status(200).send({ "ok": true, "message": "Data Deleted successfully" });
     } catch (error) {
         res.status(400).send({ "ok": false, "message": error.message });

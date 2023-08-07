@@ -22,6 +22,18 @@ const user = sequelize.define('users', {
     },
     address:{
         type:Sequelize.STRING
+    },
+    image:{
+        type:Sequelize.STRING
+    },
+    city:{
+        type:Sequelize.STRING
+    },
+    state:{
+        type:Sequelize.STRING
+    },
+    country:{
+        type:Sequelize.STRING
     }
 })
 

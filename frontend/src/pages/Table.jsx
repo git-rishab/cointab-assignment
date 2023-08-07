@@ -77,7 +77,11 @@ export default function UserTable() {
                         { value: 'username', label: 'Username' },
                         { value: 'phone', label: 'Phone' },
                         { value: 'age', label: 'Age' },
+                        { value: 'gender', label: 'Gender' },
                         { value: 'address', label: 'Address' },
+                        { value: 'city', label: 'City' },
+                        { value: 'state', label: 'State' },
+                        { value: 'country', label: 'Country' },
                     ]}
                 />
                 <TextInput value={value} className={styles.search} placeholder={`Search by ${searchValue}`} onChange={handleSearch} />
@@ -86,6 +90,7 @@ export default function UserTable() {
             <Table striped highlightOnHover withBorder className={styles.table}>
                 <thead>
                     <tr>
+                        <th></th>
                         <th></th>
                         <th>Name</th>
                         <th>Email</th>
@@ -114,6 +119,7 @@ export default function UserTable() {
                         data?.map((element, i) => (
                             <tr key={i}>
                                 <td>{element.id}</td>
+                                <td><img className={styles.profile} src={element.image} alt="image" /></td>
                                 <td>{element.name}</td>
                                 <td>{element.email}</td>
                                 <td>{element.username}</td>

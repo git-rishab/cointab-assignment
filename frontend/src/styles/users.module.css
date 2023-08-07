@@ -7,6 +7,7 @@
     width: 90%;
     margin: 2rem auto;
     min-height: 600px;
+    background-color: #fff;
 }
 
 .heading{
@@ -16,7 +17,7 @@
 }
 
 .back{
-    position: fixed;
+    position: absolute;
     top: 5%;
     left: 5%;
     color: #4C6EF5;
@@ -43,4 +44,10 @@
 }
 .search{
     width: 30rem;
+}
+
+.profile{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
